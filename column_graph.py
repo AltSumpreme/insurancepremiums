@@ -1,4 +1,5 @@
 #for column bmi
+import plotly as px
 fig = px.histogram(medical_df,x='bmi',marginal='box',color_discrete_sequence=['red'],title='distribution of body mass index')
 fig.update_layout(bargap=0.1)
 fig.show()

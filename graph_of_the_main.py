@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 medical_charges_url = 'https://raw.githubusercontent.com/JovianML/opendatasets/master/data/medical-charges.csv'
 urlretrieve(medical_charges_url,'medical.csv')
-import pandas as pd
 medical_df = pd.read_csv('medical.csv')
 print(medical_df)
 plt.rcparams['font size'] =14
