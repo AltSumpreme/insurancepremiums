@@ -9,4 +9,4 @@ children 0.042469	0.012759	1.000000	0.067998
 charges0.299008	0.198341	0.067998	1.000000
   '''
 sns.heatmap(medical_df.corr(), cmap='Reds', annot=True)
-plt.title('Correlation Matrix')
+sns.title('Correlation Matrix')
